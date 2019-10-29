@@ -39,10 +39,10 @@ PrepareTwitter<-function()
 PrepareTwitter()
 
 shinyServer(function(input, output, session) {
-  consumer_key <- "gPaeCxcCRsDy4szTgcXemp2Io" # Enter your consumer key
-  consumer_secret <- "3goqcgJhcZ1QtDw3KpVyveFgczAqTxoa2pjCtFgzbImbb8mJ35" # Enter your consumer secret
-  access_token <- "345322832-steXCvnUu13YB54GWCB7BS1hn9XyKFOYkUJywnon" # Enter your access token
-  access_secret <- "XwjGxQV4depobJbySM62jIdpuXUZ0yBZwV6EvRzP84TE0" # Enter your access secret
+  consumer_key <- "" # Enter your consumer key
+  consumer_secret <- "" # Enter your consumer secret
+  access_token <- "" # Enter your access token
+  access_secret <- "" # Enter your access secret
   setup_twitter_oauth(consumer_key, consumer_secret, access_token, access_secret) # Sets up the OAuth credentials for a twitteR session
   
   #Search tweets and create a data frame -Stanton (2013)
